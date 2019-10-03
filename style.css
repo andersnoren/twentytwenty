@@ -2921,6 +2921,14 @@ h2.entry-title {
 
 /* Block: Base Margins ----------------------- */
 
+[class*="__inner-container"] > *:first-child {
+	margin-top: 0;
+}
+
+[class*="__inner-container"] > *:last-child {
+	margin-bottom: 0;
+}
+
 .wp-block-archives:not(.aligncenter):not(.alignleft):not(.alignright),
 .wp-block-categories:not(.aligncenter):not(.alignleft):not(.alignright),
 .wp-block-code,
