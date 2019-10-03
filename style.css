@@ -3528,6 +3528,10 @@ hr.wp-block-separator {
 	max-width: 100%;
 }
 
+.alignwide {
+	max-width: 120rem;
+}
+
 .alignfull {
 	margin: 5rem 0;
 }
