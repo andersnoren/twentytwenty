@@ -3522,30 +3522,20 @@ hr.wp-block-separator {
 
 .alignfull {
 	margin: 5rem 0;
-	max-width: 100vw;
-	position: relative;
-	left: calc(50% - 50vw);
-	width: 100vw;
 }
 
-.alignwide {
+.entry-content > .alignwide {
 	max-width: calc(100vw - 4rem);
 	position: relative;
 	left: calc(50% - 50vw + 2rem);
 	width: calc(100vw - 4rem);
 }
 
-[class*="__inner-container"] .alignwide,
-[class*="__inner-container"] .alignfull,
-.alignwide .alignwide,
-.alignwide .alignfull,
-.alignfull .alignwide,
-.alignfull .alignfull {
-	left: auto;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 100%;
-	width: 100%;
+.entry-content > .alignfull {
+	max-width: 100vw;
+	position: relative;
+	left: calc(50% - 50vw);
+	width: 100vw;
 }
 
 .aligncenter,
@@ -5103,7 +5093,7 @@ a.to-the-top > * {
 		margin-top: 6rem;
 	}
 
-	.alignwide {
+	.entry-content > .alignwide {
 		max-width: calc(100vw - 8rem);
 		left: calc(50% - 50vw + 4rem);
 		width: calc(100vw - 8rem);
@@ -5827,7 +5817,7 @@ a.to-the-top > * {
 		margin-right: -31rem;
 	}
 
-	.alignwide {
+	.entry-content > .alignwide {
 		max-width: 120rem;
 		left: calc(50% - 60rem);
 		width: 120rem;
