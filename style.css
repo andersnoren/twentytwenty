@@ -2818,6 +2818,10 @@ h2.entry-title {
 	color: inherit;
 }
 
+.has-subtle-background-background-color {
+	background: rgba( 0, 0, 0, .1 );
+}
+
 /* CUSTOM COLORS */
 
 .has-accent-color {
@@ -3529,6 +3533,14 @@ hr.wp-block-separator {
 	position: relative;
 	left: calc(50% - 50vw + 2rem);
 	width: calc(100vw - 4rem);
+}
+
+.alignwide .alignwide,
+.alignwide .alignfull,
+.alignfull .alignfull,
+.alignfull .alignwide {
+	left: auto;
+	width: 100%;
 }
 
 .aligncenter,
