@@ -657,10 +657,6 @@ hr.wp-block-separator.is-style-dots::before {
 	max-width: 100%;
 }
 
-.editor-styles-wrapper .wp-block-cover p {
-	font-family: inherit;
-}
-
 .editor-styles-wrapper .wp-block-cover a {
 	color: inherit;
 }
