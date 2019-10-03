@@ -3535,11 +3535,16 @@ hr.wp-block-separator {
 	width: calc(100vw - 4rem);
 }
 
+[class*="__inner-container"] .alignwide,
+[class*="__inner-container"] .alignfull,
 .alignwide .alignwide,
 .alignwide .alignfull,
-.alignfull .alignfull,
-.alignfull .alignwide {
+.alignfull .alignwide,
+.alignfull .alignfull {
 	left: auto;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
 	width: 100%;
 }
 
