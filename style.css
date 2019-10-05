@@ -794,7 +794,7 @@ input[type="submit"] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	background: #cd2653;
-	border: none;
+	border: .2rem solid #cd2653;
 	border-radius: 0;
 	color: #fff;
 	cursor: pointer;
@@ -809,7 +809,7 @@ input[type="submit"] {
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
-	transition: opacity 0.15s linear;
+	transition: color 0.15s linear, background-color 0.15s linear, border-color 0.15s linear;
 }
 
 button:focus,
@@ -828,7 +828,8 @@ input[type="reset"]:focus,
 input[type="reset"]:hover,
 input[type="submit"]:focus,
 input[type="submit"]:hover {
-	text-decoration: underline;
+	background-color: transparent;
+	color: #cd2653;
 }
 
 /* Tables ------------------------------------ */
@@ -972,6 +973,10 @@ button.toggle {
 	letter-spacing: inherit;
 	padding: 0;
 	text-transform: none;
+}
+
+button.toggle:hover {
+	color: inherit;
 }
 
 /* Hiding and Showing ------------------------ */
@@ -2828,8 +2833,15 @@ h2.entry-title {
 	color: #cd2653;
 }
 
-.wp-block-button.is-style-outline .wp-block-button__link {
+.is-style-outline .wp-block-button__link {
+	border-color: #cd2653;
 	color: inherit;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover,
+.wp-block-button.is-style-outline .wp-block-button__link:focus {
+	background-color: #cd2653;
+	color: #fff;
 }
 
 /* Block: Columns ---------------------------- */

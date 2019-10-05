@@ -612,13 +612,13 @@ function twentytwenty_get_elements_array() {
 	$elements = array(
 		'content'       => array(
 			'accent'     => array(
-				'color'        => array( '.color-accent', '.color-accent-hover:hover', '.color-accent-hover:focus', '.has-accent-color', '.has-drop-cap:not(:focus):first-letter', '.wp-block-button.is-style-outline', 'a' ),
-				'border-color' => array( 'blockquote', '.border-color-accent', '.border-color-accent-hover:hover', '.border-color-accent-hover:focus' ),
-				'background'   => array( 'button:not(.toggle)', '.button', '.faux-button', '.wp-block-button__link', '.wp-block-file .wp-block-file__button', 'input[type="button"]', 'input[type="reset"]', 'input[type="submit"]', '.bg-accent', '.bg-accent-hover:hover', '.bg-accent-hover:focus', '.has-accent-background-color', '.comment-reply-link' ),
+				'color'        => array( '.color-accent', '.color-accent-hover:hover', '.color-accent-hover:focus', '.has-accent-color', '.has-drop-cap:not(:focus):first-letter', '.wp-block-button.is-style-outline', 'a', 'button:hover', '.button:hover', '.faux-button:hover', '.wp-block-button .wp-block-button__link:hover', '.wp-block-file .wp-block-file__button', 'input[type="button"]:hover', 'input[type="reset"]:hover', 'input[type="submit"]:hover', 'button:focus', '.button:focus', '.faux-button:focus', '.wp-block-button .wp-block-button__link:focus', '.wp-block-file .wp-block-file__button', 'input[type="button"]:focus', 'input[type="reset"]:focus', 'input[type="submit"]:focus', ),
+				'border-color' => array( 'blockquote', '.border-color-accent', '.border-color-accent-hover:hover', '.border-color-accent-hover:focus', 'button:not(.toggle)', '.button', '.faux-button', '.wp-block-button__link', '.wp-block-button.is-style-outline .wp-block-button__link', '.wp-block-file .wp-block-file__button', 'input[type="button"]', 'input[type="reset"]', 'input[type="submit"]', '.wp-block-button.is-style-outline .wp-block-button__link:hover', '.wp-block-button.is-style-outline .wp-block-button__link:focus' ),
+				'background'   => array( 'button:not(.toggle)', '.button', '.faux-button', '.wp-block-button__link', '.wp-block-file .wp-block-file__button', 'input[type="button"]', 'input[type="reset"]', 'input[type="submit"]', '.wp-block-button.is-style-outline .wp-block-button__link:hover', '.wp-block-button.is-style-outline .wp-block-button__link:focus', '.bg-accent', '.bg-accent-hover:hover', '.bg-accent-hover:focus', '.has-accent-background-color', '.comment-reply-link' ),
 				'fill'         => array( '.fill-children-accent', '.fill-children-accent *' ),
 			),
 			'background' => array(
-				'color'      => array( 'button', '.button', '.faux-button', '.wp-block-button__link', '.wp-block-button__link:active', '.wp-block-button__link:focus', '.wp-block-button__link:visited', '.wp-block-button__link:hover', '.wp-block-file__button', 'input[type="button"]', 'input[type="reset"]', 'input[type="submit"]', '.comment-reply-link' ),
+				'color'      => array( 'button', '.button', '.faux-button', '.wp-block-button__link', '.wp-block-file__button', 'input[type="button"]', 'input[type="reset"]', 'input[type="submit"]', '.comment-reply-link',  '.wp-block-button.is-style-outline .wp-block-button__link:hover', '.wp-block-button.is-style-outline .wp-block-button__link:focus', ),
 				'background' => array( '.has-background-background-color' ),
 			),
 			'text'       => array(
