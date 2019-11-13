@@ -2407,11 +2407,8 @@ h2.entry-title {
 }
 
 .post-meta-wrapper {
-	margin-top: 2rem;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 2rem auto 0 auto;
 	max-width: 58rem;
-	width: calc(100% - 4rem);
 }
 
 .post-meta {
@@ -2571,11 +2568,8 @@ h2.entry-title {
 /* Author Bio -------------------------------- */
 
 .author-bio {
-	margin-top: 4rem;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 4rem auto 0 auto;
 	max-width: 58rem;
-	width: calc(100% - 4rem);
 }
 
 .hide-avatars .author-bio {
