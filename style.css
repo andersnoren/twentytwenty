@@ -2423,8 +2423,7 @@ h2.entry-title {
 }
 
 .post-meta-wrapper {
-	margin: 2rem auto 0 auto;
-	max-width: 58rem;
+	margin-top: 2rem;
 }
 
 .post-meta {
@@ -2584,8 +2583,7 @@ h2.entry-title {
 /* Author Bio -------------------------------- */
 
 .author-bio {
-	margin: 4rem auto 0 auto;
-	max-width: 58rem;
+	margin-top: 4rem;
 }
 
 .hide-avatars .author-bio {

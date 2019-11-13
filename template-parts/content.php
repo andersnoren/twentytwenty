@@ -41,7 +41,7 @@
 
 	</div><!-- .post-inner -->
 
-	<div class="section-inner">
+	<div class="section-inner thin">
 		<?php
 		wp_link_pages(
 			array(

@@ -127,11 +127,16 @@
 
 		<div class="entry-content">
 
-		<?php
-		the_content();
-		?>
+			<?php
+			the_content();
+			?>
 
 		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner thin">
+
 		<?php
 		wp_link_pages(
 			array(
@@ -153,7 +158,7 @@
 		}
 		?>
 
-	</div><!-- .post-inner -->
+	</div><!-- .section-inner -->
 
 	<?php
 
