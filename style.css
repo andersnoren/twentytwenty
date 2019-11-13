@@ -3608,8 +3608,8 @@ figure.wp-block-table.is-style-stripes {
 
 /* Entry Media ------------------------------- */
 
-.entry-content > figure.alignnone[style*="width"],
-.entry-content > figure.aligncenter[style*="width"] {
+.entry-content figure.alignnone[style*="width"],
+.entry-content figure.aligncenter[style*="width"] {
 	max-width: calc(100% - 4rem) !important;
 }
 
@@ -4541,8 +4541,8 @@ a.to-the-top > * {
 
 	/* Entry Content ------------------------- */
 
-	body:not(.template-full-width) .entry-content > figure.alignnone[style*="width"],
-	body:not(.template-full-width) .entry-content > figure.aligncenter[style*="width"] {
+	body:not(.template-full-width) .entry-content figure.alignnone[style*="width"],
+	body:not(.template-full-width) .entry-content figure.aligncenter[style*="width"] {
 		max-width: 58rem !important;
 	}
 
@@ -6308,8 +6308,8 @@ a.to-the-top > * {
 		margin-right: 0;
 	}
 
-	body.template-full-width .entry-content > figure.alignnone[style*="width"],
-	body.template-full-width .entry-content > figure.aligncenter[style*="width"] {
+	body.template-full-width .entry-content figure.alignnone[style*="width"],
+	body.template-full-width .entry-content figure.aligncenter[style*="width"] {
 		max-width: 120rem !important;
 	}
 
